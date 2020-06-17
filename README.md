@@ -1,7 +1,7 @@
 # Amazon-Product-details-scraper
 A simple project showcasing web scraping and automation using puppeteer. 
 
-Automatically navigates to search results and scraps product details from the results and saves them as .JSON and .CSV file. A recording of a sample output run is available in the ``sample run`` folder.
+Automatically navigates to the search results and scrapes product details from the results and saves them as .JSON and .CSV file. A recording of a sample output run is available in the ``sample run`` folder.
 
 ## Command
  
@@ -13,9 +13,9 @@ Automatically navigates to search results and scraps product details from the re
   
 ## Features
 
-* Searches for the product.
+* Searches for the product, automatically navigates between the results.
   
-* Scraps the name, manufacturer, pricing, rating and number of reviews.
+* Scrapes the name, manufacturer, pricing, rating and number of reviews.
   
 * Saves the data in a .JSON and .CSV file.
 
